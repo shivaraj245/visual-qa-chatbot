@@ -1,7 +1,4 @@
-# Specific files to exclude
-app.py
-main.py
-contexts_set.py
+
 
 # Images
 *.jpg
@@ -16,6 +13,7 @@ contexts_set.py
 
 # Temporary files
 temp_uploaded_image.*
+temp_image.*
 uploaded_*
 temp_*
 
@@ -45,7 +43,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual environment
+# Virtual environments
 sum/
 venv/
 env/
@@ -53,10 +51,6 @@ ENV/
 
 # Streamlit
 .streamlit/
-
-# Temporary files
-*.tmp
-*.temp
 
 # IDE
 .vscode/
